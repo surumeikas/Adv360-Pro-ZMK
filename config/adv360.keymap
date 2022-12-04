@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-        &kp EQUAL     &kp N1     &kp N2    &kp N3     &kp N4     &kp N5                      &tog 1                &mo 3             &kp N6    &kp N7     &kp N8         &kp N9     &kp N0      &kp MINUS
-          &kp ESC      &kp Q      &kp W     &kp E      &kp R      &kp T             &macro_commandt        &macro_susumu              &kp Y     &kp U      &kp I          &kp O      &kp P       &kp BSLH
-          &kp TAB      &kp A      &kp S     &kp D      &kp F      &kp G            &macro_allselect     &kp LEFT_CONTROL           &kp LALT                            &kp LGUI  &kp RCTRL  &macro_modosu     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
-        &kp LSHFT      &kp Z      &kp X     &kp C      &kp V      &kp B                       &none                &none  &macro_namaehozon     &none      &none  &macro_amazon      &none          &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
- &kp LEFT_COMMAND  &kp GRAVE  &kp MINUS  &kp LEFT  &kp RIGHT  &kp SPACE            &macro_kanaeisuu  &macro_uwagakihozon     &macro_kensaku  &kp BSPC  &kp ENTER         &kp UP   &kp DOWN       &kp LBKT  &kp RBKT   &mo 2
+        &kp EQUAL     &kp N1     &kp N2    &kp N3     &kp N4     &kp N5                        &tog 1             &mo 3             &kp N6    &kp N7     &kp N8         &kp N9     &kp N0      &kp MINUS
+          &kp ESC      &kp Q      &kp W     &kp E      &kp R      &kp T                    &mt LGUI T     &macro_susumu              &kp Y     &kp U      &kp I          &kp O      &kp P       &kp BSLH
+          &kp TAB      &kp A      &kp S     &kp D      &kp F      &kp G            &mt LEFT_COMMAND A  &kp LEFT_CONTROL           &kp LALT                            &kp LGUI  &kp RCTRL  &macro_modosu     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+        &kp LSHFT      &kp Z      &kp X     &kp C      &kp V      &kp B                         &none             &none  &macro_namaehozon     &none      &none  &macro_amazon      &none          &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+ &kp LEFT_COMMAND  &kp GRAVE  &kp MINUS  &kp LEFT  &kp RIGHT  &kp SPACE                &mt LGUI SPACE        &mt LGUI S         &mt LGUI F  &kp BSPC  &kp ENTER         &kp UP   &kp DOWN       &kp LBKT  &kp RBKT   &mo 2
             >;
         };
 
