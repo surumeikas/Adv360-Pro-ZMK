@@ -1,56 +1,56 @@
-macro_susumu: macro_susumu{
+macro_kana_ei: macro_kana_ei{
 compatible = "zmk,behavior-macro";
-label = "macro_susumu";
+label = "macro_kana_ei";
 #binding-cells = <0>;
-bindings = <&kp K_COPY>, <&kp LEFT_SHIFT>, <&kp Z>;
+bindings = <&sk LEFT_CONTROL>, <&kp SPACE>;
 };
-macro_modosu: macro_modosu{
+macro_comand_f: macro_comand_f{
 compatible = "zmk,behavior-macro";
-label = "macro_modosu";
+label = "macro_comand_f";
 #binding-cells = <0>;
-bindings = <&kp LEFT_COMMAND>, <&kp Z>;
+bindings = <&sk LEFT_COMMAND>, <&kp F>;
 };
-macro_kensaku: macro_kensaku{
+macro_comand_sh_s: macro_comand_sh_s{
 compatible = "zmk,behavior-macro";
-label = "macro_kensaku";
+label = "macro_comand_sh_s";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp F>;
+bindings = <&sk LEFT_COMMAND>, <&sk LSHIFT>, <&kp S>;
 };
-macro_namaehozon: macro_namaehozon{
+macro_comand_s: macro_comand_s{
 compatible = "zmk,behavior-macro";
-label = "macro_namaehozon";
+label = "macro_comand_s";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp LEFT_SHIFT>, <&kp S>;
+bindings = <&sk LEFT_COMMAND>, <&kp S>;
 };
-macro_uwagakihozon: macro_uwagakihozon{
+macro_comand_s_z: macro_comand_s_z{
 compatible = "zmk,behavior-macro";
-label = "macro_uwagakihozon";
+label = "macro_comand_s_z";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp S>;
+bindings = <&sk LEFT_COMMAND>, <&sk LSHIFT>, <&kp Z>;
 };
-macro_kanaeisuu: macro_kanaeisuu{
+macro_comand_z: macro_comand_z{
 compatible = "zmk,behavior-macro";
-label = "macro_kanaeisuu";
+label = "macro_comand_z";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp SPACE>;
+bindings = <&sk LEFT_COMMAND>, <&kp T>;
 };
-macro_commandt: macro_commandt{
+macro_comand_t: macro_comand_t{
 compatible = "zmk,behavior-macro";
-label = "macro_commandt";
+label = "macro_comand_t";
 #binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp T>;
+bindings = <&sk LEFT_COMMAND>, <&kp T>;
+};
+macro_zensentaku: macro_zensentaku{
+compatible = "zmk,behavior-macro";
+label = "macro_zensentaku";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&kp A>;
 };
 macro_amazon: macro_amazon{
 compatible = "zmk,behavior-macro";
 label = "macro_amazon";
 #binding-cells = <0>;
 bindings = <&kp SEMI>, <&kp Z>;
-};
-macro_allselect: macro_allselect{
-compatible = "zmk,behavior-macro";
-label = "macro_allselect";
-#binding-cells = <0>;
-bindings = <&kp LGUI>, <&kp A>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
