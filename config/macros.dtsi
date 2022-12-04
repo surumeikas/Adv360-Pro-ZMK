@@ -1,3 +1,9 @@
+macro_motoni: macro_motoni{
+compatible = "zmk,behavior-macro";
+label = "macro_motoni";
+#binding-cells = <0>;
+bindings = <&sk LEFT_COMMAND>, <&kp Z>;
+};
 macro_kana_ei: macro_kana_ei{
 compatible = "zmk,behavior-macro";
 label = "macro_kana_ei";
@@ -14,7 +20,7 @@ macro_comand_sh_s: macro_comand_sh_s{
 compatible = "zmk,behavior-macro";
 label = "macro_comand_sh_s";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&sk LSHIFT>, <&kp S>;
+bindings = <&kt LEFT_COMMAND>, <&sk LSHIFT>, <&kp S>, <&kt LEFT_COMMAND>;
 };
 macro_comand_s: macro_comand_s{
 compatible = "zmk,behavior-macro";
@@ -26,13 +32,7 @@ macro_comand_s_z: macro_comand_s_z{
 compatible = "zmk,behavior-macro";
 label = "macro_comand_s_z";
 #binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&sk LSHIFT>, <&kp Z>;
-};
-macro_comand_z: macro_comand_z{
-compatible = "zmk,behavior-macro";
-label = "macro_comand_z";
-#binding-cells = <0>;
-bindings = <&sk LEFT_COMMAND>, <&kp T>;
+bindings = <&kt LEFT_COMMAND>, <&sk LSHIFT>, <&kp Z>, <&kt LEFT_COMMAND>;
 };
 macro_comand_t: macro_comand_t{
 compatible = "zmk,behavior-macro";
